@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Timer</title>
+    <link class="estilo" rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="grid-container">
+        <header class="header">
+            <div class="contenedor-palabra-cambiante" id="cadenas-texto"><span class="typed"></span></div>
+            <div class="contenedor-btn-dia-noche">
+                <button class="btn-dia-noche"><img class="img-btn-dia-noche" src="/img/sol.png"></button>
+            </div>
+        </header>
+        <main class="main">
+            <img class="img-hojas" src="/img/hojas.png">
+            <div class="timer-principal">
+                <div class="timer-principal__mas-tiempo">
+                    <button class="timer-principal__mas-horas">+</button>
+                    <button class="timer-principal__mas-minutos">+</button>
+                    <button class="timer-principal__mas-segundos">+</button>
+                </div>
+                <div class="timer-principal__tiempo">
+                    <span class="timer-principal__horas">00</span>
+                    <span class="timer-principal__dos-puntos">:</span>
+                    <span class="timer-principal__minutos">00</span>
+                    <span class="timer-principal__segundos">00</span>
+                </div>
+                <div class="timer-principal__menos-tiempo">
+                    <button class="timer-principal__menos-horas">-</button>
+                    <button class="timer-principal__menos-minutos">-</button>
+                    <button class="timer-principal__menos-segundos">-</button>
+                </div>
+                <button class="boton-modificar"><img class="img-btn-modificar" src="img/boligrafo.png"></button>
+                <button class="boton-play"><img class="imagen-play" src="/img/play.png"> </button>
+            </div>
+            <div class="contenedor-audio">
+                <audio class="audio-lluvia" src="audio/y_3.mp3" autobuffer="true" loop="true"></audio>
+            </div>
+        </main>
+    </div>
+    <script src="typed.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
