@@ -291,7 +291,7 @@ body {
     }
     .container-sonidos {
         grid-row: 3 / 4;
-        grid-column: 2 / 11;
+        grid-column: 2 / 10;
         margin-left: 10px;
     }
     .img-hojas {

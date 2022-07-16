@@ -110,7 +110,7 @@ body {
     border-radius: 50%;
     border: 5px solid var(--color-segundero);
     background-color: var(--color-btns-reloj);
-    transition: background-color 3s;
+    transition: background-color 3s, border 3s;
 }
 
 .btn-play {
